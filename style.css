@@ -1,0 +1,248 @@
+/*==============================*\
+    #LINKS-EXTERNOS
+\*==============================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&display=swap');
+
+/*==============================*\
+    #VARIABLES
+\*==============================*/
+
+:root {
+    --card-bg-color: #7159c1;
+    --header-bg-color: rgba(0, 0, 0, 0.1);
+    --header-border-color: #333;
+    --highlight-text-color: #50fa7b;
+    --main-bg-color: #282a36;
+    --main-text-color: whitesmoke;
+}
+
+/*==============================*\
+    #STYLE-RESET
+\*==============================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*==============================*\
+    #GENERAL-STYLES
+\*==============================*/
+
+body {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.7em;
+    font-weight: bold;
+    line-height: 1.3em;
+    margin-top: 1.1em;
+}
+
+.links li {
+    display: inline;
+}
+
+.links a {
+    color: var(--main-text-color);
+    font-size: 1.4em;
+    margin: 0 1.2em;
+}
+
+.links a:hover {
+    color: var(--highlight-text-color);
+    transition: color 200ms;
+}
+
+/*==============================*\
+    #HEADER
+\*==============================*/
+
+header {
+    padding: 3em;
+    border-bottom: 1px solid var(--header-border-color);
+    background-color: var(--header-bg-color);
+}
+
+/*==============================*\
+    #INDEX-PAGE
+\*==============================*/
+
+/*====== #SECTION-PROFILE ======*/
+    
+.profile {
+    text-align: center;
+    margin-top: 3em;
+}
+
+.profile__picture img {
+    border-radius: 50%;
+    border: 5px solid var(--highlight-text-color);
+    height: 300px;
+}
+
+.profile__occupation {
+    font-size: 1.8em;
+    font-weight: normal;
+    opacity: 0.8;
+}
+
+.profile__description {
+    font-size: 1.4em;
+    line-height: 1.4em;
+    margin: 2em auto;
+    max-width: 65vw;
+}
+
+.profile__description a {
+    color: var(--highlight-text-color);
+}
+
+/*====== #FOOTER-SOCIAL-MEDIA ======*/
+
+.footer {
+    margin-bottom: 8em;
+}
+
+.footer a {
+    border-bottom: 1px solid var(--highlight-text-color);
+    padding-bottom: 0.2em;
+}
+
+/*==============================*\
+    #CLASSES-PAGE
+\*==============================*/
+
+/*====== #SECTION-CARDS ======*/
+
+.cards {
+    display: grid;
+    gap: 1.5em;
+    margin: 5vh auto;
+    max-width: 80vw;
+}
+
+.card {
+    background-color: var(--card-bg-color);
+    cursor: pointer;
+}
+
+.card__image img {
+    width: 100%;
+}
+
+.card__content,
+.card__info {
+    font-size: 1.2em;
+    padding: 1.2em;
+    text-align: left;
+}
+
+.card__info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card__price {
+    background-color: var(--card-bg-color);
+    filter: brightness(90%);
+    padding: 0.5em 1.5em;
+    border-radius: 1.3em;
+    text-align: center;
+}
+
+/*==============================*\
+    #MODAL
+\*==============================*/
+
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal {
+    background-color: black;
+    height: 50vh;
+    margin: 25vh auto;
+    position: relative;
+    width: 90vw;
+}
+
+.modal__close-icon {
+    color: var(--main-text-color);
+    cursor: pointer;
+    padding: 0.5em;
+    position: absolute;
+    right: 0;
+}
+
+iframe {
+    height: 90%;
+    position: absolute;
+    left: 0;
+    top: 8%;
+    width: 100%;
+
+}
+
+/*====== #MODAL-ACTIVE ======*/
+
+.modal-overlay.modal-overlay--active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/*==============================*\
+    #BREAKPOINTS
+\*==============================*/
+
+/*====== #MIN-WIDTH ======*/
+
+@media (min-width: 600px) {
+    .profile__description {
+        max-width: 40vw;
+    }
+}
+
+@media (min-width: 700px) {
+    iframe {
+        top: 6%;
+    }
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1000px) {
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    iframe {
+        top: 5%;
+    }
+    .cards {
+        max-width: 50vw;
+    }
+    .modal {
+        height: 90vh;
+        margin: 5vh auto;
+    }
+}

@@ -2,7 +2,9 @@
     <img alt="Launchbase" src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/logo.png" width="170px" />
 </h1>
 
-- Portfólio usando como modelo o instrutor Mayk Brito. O site contém duas páginas, uma principal, com informações gerais, e uma segunda página com o portfólio de aulas.
+# Portfolio | Fase 1
+
+- Portfolio usando como modelo o instrutor Mayk Brito. O site contém duas páginas, uma principal, com informações gerais, e uma segunda página com o portfolio de aulas.
 - Nessa primeira fase do projeto construimos o front-end do site e implementamos um modal overlay para acessar as aulas contidas no portfólio.
 
 ## Deploy

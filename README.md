@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Launchbase" src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/logo.png" width="150px" />
+    <img alt="Launchbase" src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/logo.png" width="170px" />
 </h1>
 
 <p align="center">

@@ -19,4 +19,4 @@
 
 ---
 
-</> with :rainbow: 	:two_hearts: :sparkling_heart: by [Ully Lima](https://github.com/ullyolima)!
+</> with :two_hearts: by [Ully Lima](https://github.com/ullyolima)!

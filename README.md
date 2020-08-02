@@ -19,4 +19,4 @@
 
 ---
 
-</> with :black_heart: by © 2020 [Ully Lima](https://github.com/ullyolima)
+<i></> with :black_heart: by [Ully Lima](https://github.com/ullyolima)<i/>

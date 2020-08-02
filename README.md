@@ -19,4 +19,4 @@
 
 ---
 
-Feito com :red_heart: by [Ully Lima](https://github.com/ullyolima)!
+Feito com :heart: by [Ully Lima](https://github.com/ullyolima)!

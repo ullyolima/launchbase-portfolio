@@ -19,4 +19,4 @@
 
 ---
 
-<small></> with :black_heart: by [Ully Lima](https://github.com/ullyolima)<small/>
+<uppercase></> with :black_heart: by [Ully Lima](https://github.com/ullyolima)<uppercase/>

@@ -16,3 +16,7 @@
 - HTML
 - CSS
 - JavaScript
+
+---
+
+Feito com :red_heart: by [Ully Lima](https://github.com/ullyolima)!

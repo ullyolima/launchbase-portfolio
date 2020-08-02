@@ -19,4 +19,4 @@
 
 ---
 
-Feito com :heart: by [Ully Lima](https://github.com/ullyolima)!
+Feito com :purple_heart: by [Ully Lima](https://github.com/ullyolima)!

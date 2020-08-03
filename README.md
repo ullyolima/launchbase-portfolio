@@ -11,8 +11,10 @@
   <a href="https://ullyolima.github.io/launchbase-portfolio/index.html" >
     <img alt="Website status" src="https://img.shields.io/website?url=https%3A%2F%2Fullyolima.github.io%2Flaunchbase-portfolio%2Findex.html">
   </a>
+  
+  <img alt="Project Status: complete" src="https://img.shields.io/badge/project%20status-complete-green">
 
-  <a href="LICENSE" >
+  <a href="./LICENSE" >
     <img alt="License" src="https://img.shields.io/badge/license-MIT-%23F8952D">
   </a>
 

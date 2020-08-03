@@ -2,9 +2,9 @@
     <img alt="Launchbase" src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/logo.png" width="300px" />
 </h1>
 
-<h3 align="center">
+<h2 align="center">
   Portfolio: front-end
-</h3>
+</h2>
 
 <p align="center">
 
@@ -22,16 +22,16 @@
 - O site contém duas páginas, uma principal, com informações gerais, e uma segunda página com o portfolio de aulas.
 - Nessa primeira fase do projeto construimos o front-end do site e implementamos um modal overlay para acessar as aulas contidas no portfólio.
 
-## Deploy
+### Deploy
 [Clique Aqui](https://ullyolima.github.io/launchbase-portfolio/index.html) para visualizar o resultado.
 
-## Tecnologias utilizadas
+### Tecnologias utilizadas
 
 - HTML
 - CSS
 - JavaScript
 
-## Licença
+### Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
 

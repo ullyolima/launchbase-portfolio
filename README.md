@@ -2,9 +2,9 @@
     <img alt="Launchbase" src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/logo.png" width="250px" />
 </h1>
 
-<h1 align="center">
+<h2 align="center">
   Portfolio (front-end)
-</h1>
+</h2>
 
 - Portfolio feito usando como modelo o instrutor Mayk Brito. 
 - O site contém duas páginas, uma principal, com informações gerais, e uma segunda página com o portfolio de aulas.

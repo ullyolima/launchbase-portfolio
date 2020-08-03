@@ -31,6 +31,10 @@
 - CSS
 - JavaScript
 
+## Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
+
 ---
 
 ##### </> with :black_heart: by [Ully Lima](https://github.com/ullyolima)

@@ -10,7 +10,7 @@
     
   <img alt="Project Status: complete" src="https://img.shields.io/badge/project%20status-complete-blue">
 
-  <a href="https://ullyolima.github.io/launchbase-portfolio/index.html" >
+  <a href="https://ullyolima.github.io/launchbase-portfolio-frontend/" >
     <img alt="Website status" src="https://img.shields.io/website?url=https%3A%2F%2Fullyolima.github.io%2Flaunchbase-portfolio%2Findex.html">
   </a>
   
@@ -25,7 +25,7 @@
 - Nessa primeira fase do projeto construimos o front-end do site e implementamos um modal overlay para acessar as aulas contidas no portfólio.
 
 ### Deploy
-[Clique Aqui](https://ullyolima.github.io/launchbase-portfolio/index.html) para visualizar o resultado.
+[Clique Aqui](https://ullyolima.github.io/launchbase-portfolio-frontend/) para visualizar o resultado.
 
 ### Tecnologias utilizadas
 
